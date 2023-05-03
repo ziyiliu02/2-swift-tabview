@@ -13,6 +13,12 @@
 		64BB64392A02A3D6009FBE2D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BB64272A02A3D2009FBE2D /* ContentView.swift */; };
 		64BB643A2A02A3D6009FBE2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64BB64282A02A3D6009FBE2D /* Assets.xcassets */; };
 		64BB643B2A02A3D6009FBE2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64BB64282A02A3D6009FBE2D /* Assets.xcassets */; };
+		64BB64452A02A6F6009FBE2D /* TheatreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BB64442A02A6F6009FBE2D /* TheatreView.swift */; };
+		64BB64462A02A6F6009FBE2D /* TheatreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BB64442A02A6F6009FBE2D /* TheatreView.swift */; };
+		64BB64482A02A70F009FBE2D /* StudioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BB64472A02A70F009FBE2D /* StudioView.swift */; };
+		64BB64492A02A70F009FBE2D /* StudioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BB64472A02A70F009FBE2D /* StudioView.swift */; };
+		64BB644B2A02A792009FBE2D /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BB644A2A02A792009FBE2D /* ProfileView.swift */; };
+		64BB644C2A02A792009FBE2D /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BB644A2A02A792009FBE2D /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,9 @@
 		64BB642D2A02A3D6009FBE2D /* 2-swift-tabview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "2-swift-tabview.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64BB64332A02A3D6009FBE2D /* 2-swift-tabview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "2-swift-tabview.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64BB64352A02A3D6009FBE2D /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		64BB64442A02A6F6009FBE2D /* TheatreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheatreView.swift; sourceTree = "<group>"; };
+		64BB64472A02A70F009FBE2D /* StudioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudioView.swift; sourceTree = "<group>"; };
+		64BB644A2A02A792009FBE2D /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +66,9 @@
 				64BB64262A02A3D2009FBE2D /* __swift_tabviewApp.swift */,
 				64BB64272A02A3D2009FBE2D /* ContentView.swift */,
 				64BB64282A02A3D6009FBE2D /* Assets.xcassets */,
+				64BB64442A02A6F6009FBE2D /* TheatreView.swift */,
+				64BB64472A02A70F009FBE2D /* StudioView.swift */,
+				64BB644A2A02A792009FBE2D /* ProfileView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -178,6 +190,9 @@
 			files = (
 				64BB64382A02A3D6009FBE2D /* ContentView.swift in Sources */,
 				64BB64362A02A3D6009FBE2D /* __swift_tabviewApp.swift in Sources */,
+				64BB644B2A02A792009FBE2D /* ProfileView.swift in Sources */,
+				64BB64482A02A70F009FBE2D /* StudioView.swift in Sources */,
+				64BB64452A02A6F6009FBE2D /* TheatreView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,6 +202,9 @@
 			files = (
 				64BB64392A02A3D6009FBE2D /* ContentView.swift in Sources */,
 				64BB64372A02A3D6009FBE2D /* __swift_tabviewApp.swift in Sources */,
+				64BB644C2A02A792009FBE2D /* ProfileView.swift in Sources */,
+				64BB64492A02A70F009FBE2D /* StudioView.swift in Sources */,
+				64BB64462A02A6F6009FBE2D /* TheatreView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
